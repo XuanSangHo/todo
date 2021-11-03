@@ -1,0 +1,31 @@
+.todo {
+    display: flex;
+    width: 35vw;
+    background: rgb(74, 80, 160);
+    margin: 5px 0 5px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.content-todo {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+}
+/* done */
+.todo-done {
+    text-decoration: line-through black;
+}
+
+.btn-delete {
+    background: rgb(74, 80, 160);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}

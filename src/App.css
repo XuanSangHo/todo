@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.title-app {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 750;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+.title-content {
+  font-weight: 550;
+  font-size: 15px;
+}
+
+.color-1 {
+  color: #d3bf09;
+}
+
+.color-2 {
+  color: #09d32b;
+}
+
+.color-3 {
+  color: #0d3112;
+}
+
+/* form-------------- */
+.input-item {
+  width: 40vw;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+}
+
+/* todo list */
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto ;
+  align-items:center;
+}
